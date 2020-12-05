@@ -9,6 +9,11 @@ export default () => (
                 </Link>
             </li>
             <li>
+                <Link href="/login">
+                    <a>LogIn</a>
+                </Link>
+            </li>
+            <li>
                 <Link href="/about">
                     <a>About</a>
                 </Link>
