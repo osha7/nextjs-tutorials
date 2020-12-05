@@ -1,3 +1,19 @@
+npx create-next-app <app-name>
+yarn dev
+open localhost
+
+yarn build 
+yarn start
+
+linting:
+    eslint (find and fix problems in your javascript code)
+    https://www.npmjs.com/package/eslint-config-get-off-my-lawn
+    yarn add eslint eslint-config-get-off-my-lawn --dev
+
+formatting: 
+    prettier
+    https://prettier.io/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
