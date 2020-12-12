@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.title {
+  background-color: #eee;
+}
+.title:hover {
+  background-color: red;
+}

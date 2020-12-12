@@ -1,18 +1,32 @@
+https://www.youtube.com/playlist?list=PL6bwFJ82M6FXjyBTVi6WSCWin8q_g_8RR
+
 npx create-next-app <app-name>
 yarn dev
 open localhost
 
-yarn build 
+yarn build
 yarn start
 
-linting:
-    eslint (find and fix problems in your javascript code)
-    https://www.npmjs.com/package/eslint-config-get-off-my-lawn
-    yarn add eslint eslint-config-get-off-my-lawn --dev
+https://github.com/leerob/mastering-nextjs
 
-formatting: 
-    prettier
-    https://prettier.io/
+linting:
+eslint (find and fix problems in your javascript code)
+https://www.npmjs.com/package/eslint-config-get-off-my-lawn
+yarn add eslint eslint-config-get-off-my-lawn --dev
+
+formatting:
+prettier
+https://prettier.io/
+
+importing stylesheets:
+npm i @zeit/next-sass
+
+- also look into js and css => styled-jsx <style jsx>
+
+- another option: styled components ex:
+  import styled from 'styled-components'
+  const Title = styled.h1`font-size: 50px; color: ${({theme}) => theme.colors.primary} <!-- ^^ styled components themed components --> <!-- using js in css -->`
+  export default () => <Title>Mastering Next.js</Title>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

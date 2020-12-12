@@ -6,7 +6,7 @@ export default () => {
   return(
     <>
         <Header />
-        <h1 className={styles.title}>
+        <h1 className="title">
           ABOUT Page
         </h1>
     </>
